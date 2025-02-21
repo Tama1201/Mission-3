@@ -1,0 +1,53 @@
+:root {
+  --text-white: #ffffff;
+  --text-white-secondary: #f5f5f5;
+
+  --primary: #3254ff;
+  --primary-100: #243fdb;
+  --primary-200: #192db7;
+  --primary-300: #0f1e93;
+  --primary-400: #09147a;
+
+  --text-dark-primary: rgba(58, 53, 65, 0.87);
+  --text-dark-secondary: rgba(58, 53, 65, 0.68);
+  --text-dark-disabled: rgba(58, 53, 65, 0.38);
+  --text-light-primary: rgba(231, 227, 252, 0.87);
+  --text-light-secondary: rgba(231, 227, 252, 0.68);
+  --text-light-disabled: rgba(231, 227, 252, 0.38);
+
+  --paper-background: #22282a;
+  --body-background: #2f3334;
+  --page-header-background: #181a1c;
+  --extra-background: #3d4142;
+
+  --info: #0586ff;
+  --info-pressed: #024db7;
+  --info-hover: #0367db;
+  --info-background: rgba(205, 241, 255, 0.3);
+
+  --success: #9fe04a;
+  --success-pressed: #60a125;
+  --success-hover: #7ec036;
+  --success-background: rgba(244, 253, 219, 0.8);
+
+  --warning: #ffe70f;
+  --warning-pressed: #b7a207;
+  --warning-hover: #dbc40a;
+  --warning-background: rgba(255, 252, 207, 0.8);
+
+  --error: #ff5b3a;
+  --error-pressed: #b71f1d;
+  --error-hover: #db3a2a;
+  --error-background: rgba(255, 234, 215, 0.5);
+
+  --greyscale-50: #fafafa;
+  --greyscale-100: #f5f5f5;
+  --greyscale-200: #eeeeee;
+  --greyscale-300: #e0e0e0;
+  --greyscale-400: #bdbdbd;
+  --greyscale-500: #9e9e9e;
+  --greyscale-600: #757575;
+  --greyscale-700: #616161;
+  --greyscale-800: #424242;
+  --greyscale-900: #212121;
+}

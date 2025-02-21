@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="Styles/Register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="loginContainer">
+      <!-- Logo -->
+      <img class="logo" src="./Icon/Logo.png" alt="logo" />
+      <!-- Title and Description -->
+      <h3 class="title">Daftar</h3>
+      <p class="description">Selamat Datang!</p>
+
+      <!-- Login Form -->
+      <form class="form">
+        <fieldset class="formGroup">
+          <!-- Username Input -->
+          <div class="formField">
+            <label class="formLabel" for="username">Username</label>
+            <input
+              class="formInput"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Masukkan Username"
+            />
+          </div>
+
+          <!-- Password Input -->
+          <div class="formField">
+            <label class="formLabel" for="katasandi">Kata Sandi</label>
+            <input
+              class="formInput"
+              type="password"
+              name="katasandi"
+              id="katasandi"
+              placeholder="Masukkan Kata Sandi"
+            />
+          </div>
+        </fieldset>
+
+        <div class="formField">
+          <label class="formLabel" for="katasandi">Konfirmasi Kata Sandi</label>
+          <input
+            class="formInput"
+            type="password"
+            name="katasandi"
+            id="katasandi"
+            placeholder="Masukkan Kata Sandi"
+          />
+        </div>
+      </fieldset>
+
+        <!-- Other Actions -->
+        <div class="otherAction">
+          <p class="registerDescription">
+            Sudah Punya Akun?
+            <a class="registerLink" href="./Index.html">Masuk</a>
+          </p>
+          <a href="#">Lupa Kata Sandi</a>
+        </div>
+
+        <!-- Buttons -->
+        <div class="formButton">
+          <button class="formSubmitButton" type="submit">Daftar</button>
+          <p class="orSeparator">Atau</p>
+          <button class="formSubmitButton" type="button">
+            <img class="googleIcon" src="./Icon/google.png" alt="google-icon" />
+            <span>Daftar dengan Google</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

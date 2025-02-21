@@ -1,0 +1,181 @@
+@import "./Typographi.css";
+@import "./Colors.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: url(../Icon/backgorund.jpeg) no-repeat center center fixed
+    rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  width: 529px;
+  height: 663px;
+  padding: 40px;
+  border-radius: 16px;
+  background-color: rgba(24, 26, 28, 0.84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 163px;
+  height: auto;
+  margin-bottom: 37px;
+}
+
+.title {
+  color: var(--text-light-primary);
+  margin-bottom: 8px;
+}
+
+.description {
+  color: var(--text-light-primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+}
+
+.form {
+  margin-top: 37px;
+  width: 529px;
+  height: auto;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  border: none;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  color: var(--text-light-primary);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: 0.2px;
+  margin-bottom: 6px;
+  border: 1px var(--outline-border);
+  border-radius: 5px;
+  background-color: var(--outline-border);
+}
+
+.formInput {
+  border: 2px solid var(--text-light-secondary); /* Sama seperti button */
+  background-color: transparent; /* Bisa diubah jika ingin warna solid */
+  padding: 14px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: var(--text-white-primary);
+  border-radius: 24px;
+}
+
+.formInput:focus {
+  border: 2px solid var(--primary);
+  box-shadow: 0 0 10px var(--primary);
+  outline: none;
+}
+
+.otherAction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+.registerDescription {
+  color: var(--text-light-secondary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+}
+
+.registerLink {
+  color: var(--text-light-primary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
+.registerLink:hover {
+  text-decoration: underline;
+}
+
+.forgotPassword {
+  color: var(--text-light-primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
+.formButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  gap: 8px;
+}
+
+.formSubmitButton {
+  width: 100%;
+  padding: 14px 20px;
+  border-radius: 24px;
+  border: 2px solid var(--text-light-secondary);
+  background-color: transparent;
+  color: var(--text--primary);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.formSubmitButton:hover {
+  background-color: var(extra-background);
+}
+
+.orSeparator {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+}
+
+.formSubmitButton:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+}
+
+.googleIcon {
+  width: 18px;
+  height: auto;
+}
